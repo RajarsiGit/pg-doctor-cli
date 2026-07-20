@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "default": {
+      "connectionString": "postgres://user:password@localhost:5432/mydb"
+    },
+    "prod": {
+      "host": "prod-db.internal",
+      "port": 5432,
+      "database": "app",
+      "user": "readonly_diagnostics",
+      "password": "change-me",
+      "ssl": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+src/
+.pgdoctorrc.json
+.pgdoctorrc.example.json
+tsconfig.json
+.gitignore
+*.log
